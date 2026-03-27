@@ -53,7 +53,7 @@ export MLFLOW_TRACKING_PASSWORD=<api_token>
 
 [Documentation](https://mlflow.org/docs/latest/index.html)
 
-[MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
+[MLflow video tutorial- YouTube](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
 
 ##### cmd
 - mlflow ui

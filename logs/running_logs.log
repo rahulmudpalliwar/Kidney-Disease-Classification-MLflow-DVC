@@ -76,3 +76,334 @@ x ========== x]
 [2026-03-15 06:50:01,064: INFO: common:json file saved at: scores.json]
 [2026-03-15 06:50:05,914: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
 [2026-03-15 06:50:06,559: INFO: builder_impl:Assets written to: /tmp/tmpydb4ibeq/model/data/model/assets]
+[2026-03-16 08:38:21,183: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-16 08:38:21,186: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 08:38:21,189: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 08:38:21,192: INFO: common:created directory at: artifacts]
+[2026-03-16 08:38:21,193: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-16 08:38:21,194: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 08:41:13,950: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 08:41:14,981: INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 08:41:14,981: INFO: main:*******************]
+[2026-03-16 08:41:14,981: INFO: main:>>>>>> stage Prepare base model stage started <<<<<< ]
+[2026-03-16 08:41:14,986: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 08:41:14,989: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 08:41:14,991: INFO: common:created directory at: artifacts]
+[2026-03-16 08:41:14,992: INFO: common:created directory at: artifacts/prepare_base_model]
+[2026-03-16 08:41:16,444: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-16 08:41:16,851: INFO: main:>>>>>> stage Prepare base model stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 08:41:16,852: INFO: main:*******************]
+[2026-03-16 08:41:16,852: INFO: main:>>>>>> stage Training started <<<<<<]
+[2026-03-16 08:41:16,854: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 08:41:16,856: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 08:41:16,857: INFO: common:created directory at: artifacts]
+[2026-03-16 08:41:16,858: INFO: common:created directory at: artifacts/training]
+[2026-03-16 08:42:44,375: INFO: main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-03-16 08:42:44,375: INFO: main:*******************]
+[2026-03-16 08:42:44,375: INFO: main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-16 08:42:44,380: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 08:42:44,383: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 08:42:44,383: INFO: common:created directory at: artifacts]
+[2026-03-16 08:43:13,098: INFO: common:json file saved at: scores.json]
+[2026-03-16 08:43:13,119: INFO: common:json file saved at: scores.json]
+[2026-03-16 08:43:13,120: INFO: main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 09:03:27,909: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-16 09:03:27,911: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:03:27,912: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:03:27,913: INFO: common:created directory at: artifacts]
+[2026-03-16 09:03:27,913: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-16 09:03:27,914: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 09:06:58,521: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 09:07:00,050: INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 09:07:00,051: INFO: main:*******************]
+[2026-03-16 09:07:00,051: INFO: main:>>>>>> stage Prepare base model stage started <<<<<< ]
+[2026-03-16 09:07:00,053: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:07:00,055: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:07:00,056: INFO: common:created directory at: artifacts]
+[2026-03-16 09:07:00,057: INFO: common:created directory at: artifacts/prepare_base_model]
+[2026-03-16 09:07:01,531: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-16 09:07:02,069: INFO: main:>>>>>> stage Prepare base model stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 09:07:02,070: INFO: main:*******************]
+[2026-03-16 09:07:02,070: INFO: main:>>>>>> stage Training started <<<<<<]
+[2026-03-16 09:07:02,071: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:07:02,073: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:07:02,073: INFO: common:created directory at: artifacts]
+[2026-03-16 09:07:02,073: INFO: common:created directory at: artifacts/training]
+[2026-03-16 09:09:26,457: INFO: main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-03-16 09:09:26,457: INFO: main:*******************]
+[2026-03-16 09:09:26,457: INFO: main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-16 09:09:26,458: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:09:26,459: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:09:26,460: INFO: common:created directory at: artifacts]
+[2026-03-16 09:09:56,864: INFO: common:json file saved at: scores.json]
+[2026-03-16 09:09:56,869: INFO: common:json file saved at: scores.json]
+[2026-03-16 09:09:56,870: INFO: main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 09:24:45,457: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-16 09:24:45,458: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:24:45,460: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:24:45,460: INFO: common:created directory at: artifacts]
+[2026-03-16 09:24:45,461: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-16 09:24:45,461: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 09:27:45,727: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 09:27:46,264: INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 09:27:46,264: INFO: main:*******************]
+[2026-03-16 09:27:46,264: INFO: main:>>>>>> stage Prepare base model stage started <<<<<< ]
+[2026-03-16 09:27:46,266: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:27:46,268: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:27:46,268: INFO: common:created directory at: artifacts]
+[2026-03-16 09:27:46,269: INFO: common:created directory at: artifacts/prepare_base_model]
+[2026-03-16 09:27:46,771: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-16 09:27:47,006: INFO: main:>>>>>> stage Prepare base model stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 09:27:47,006: INFO: main:*******************]
+[2026-03-16 09:27:47,006: INFO: main:>>>>>> stage Training started <<<<<<]
+[2026-03-16 09:27:47,008: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:27:47,009: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:27:47,009: INFO: common:created directory at: artifacts]
+[2026-03-16 09:27:47,010: INFO: common:created directory at: artifacts/training]
+[2026-03-16 09:29:22,126: INFO: main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-03-16 09:29:22,126: INFO: main:*******************]
+[2026-03-16 09:29:22,126: INFO: main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-16 09:29:22,128: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:29:22,129: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:29:22,130: INFO: common:created directory at: artifacts]
+[2026-03-16 09:29:53,852: INFO: common:json file saved at: scores.json]
+[2026-03-16 09:29:53,853: INFO: common:json file saved at: scores.json]
+[2026-03-16 09:29:53,853: INFO: main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 09:55:45,308: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-16 09:55:45,309: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:55:45,310: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:55:45,311: INFO: common:created directory at: artifacts]
+[2026-03-16 09:55:45,311: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-16 09:55:45,311: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 09:57:48,144: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 09:57:48,992: INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 09:57:48,992: INFO: main:*******************]
+[2026-03-16 09:57:48,992: INFO: main:>>>>>> stage Prepare base model stage started <<<<<< ]
+[2026-03-16 09:57:48,997: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:57:49,000: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:57:49,001: INFO: common:created directory at: artifacts]
+[2026-03-16 09:57:49,002: INFO: common:created directory at: artifacts/prepare_base_model]
+[2026-03-16 09:57:49,919: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-16 09:57:50,445: INFO: main:>>>>>> stage Prepare base model stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 09:57:50,445: INFO: main:*******************]
+[2026-03-16 09:57:50,445: INFO: main:>>>>>> stage Training started <<<<<<]
+[2026-03-16 09:57:50,447: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:57:50,448: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:57:50,449: INFO: common:created directory at: artifacts]
+[2026-03-16 09:57:50,449: INFO: common:created directory at: artifacts/training]
+[2026-03-16 09:59:36,194: INFO: main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-03-16 09:59:36,195: INFO: main:*******************]
+[2026-03-16 09:59:36,195: INFO: main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-16 09:59:36,198: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 09:59:36,199: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 09:59:36,200: INFO: common:created directory at: artifacts]
+[2026-03-16 10:00:08,830: INFO: common:json file saved at: scores.json]
+[2026-03-16 10:00:08,832: INFO: common:json file saved at: scores.json]
+[2026-03-16 10:00:13,615: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2026-03-16 10:00:14,209: INFO: builder_impl:Assets written to: /tmp/tmp5xwu5ffp/model/data/model/assets]
+[2026-03-16 10:08:14,868: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-16 10:08:14,870: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 10:08:14,871: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 10:08:14,872: INFO: common:created directory at: artifacts]
+[2026-03-16 10:08:14,872: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-16 10:08:14,872: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 10:10:47,149: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-16 10:10:47,945: INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 10:10:47,945: INFO: main:*******************]
+[2026-03-16 10:10:47,945: INFO: main:>>>>>> stage Prepare base model stage started <<<<<< ]
+[2026-03-16 10:10:47,947: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 10:10:47,948: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 10:10:47,949: INFO: common:created directory at: artifacts]
+[2026-03-16 10:10:47,949: INFO: common:created directory at: artifacts/prepare_base_model]
+[2026-03-16 10:10:48,825: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-16 10:10:49,200: INFO: main:>>>>>> stage Prepare base model stage completed <<<<<< 
+
+x ========== x]
+[2026-03-16 10:10:49,200: INFO: main:*******************]
+[2026-03-16 10:10:49,200: INFO: main:>>>>>> stage Training started <<<<<<]
+[2026-03-16 10:10:49,203: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 10:10:49,204: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 10:10:49,205: INFO: common:created directory at: artifacts]
+[2026-03-16 10:10:49,206: INFO: common:created directory at: artifacts/training]
+[2026-03-16 10:13:43,014: INFO: main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-03-16 10:13:43,014: INFO: main:*******************]
+[2026-03-16 10:13:43,015: INFO: main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-16 10:13:43,019: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-16 10:13:43,021: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-16 10:13:43,022: INFO: common:created directory at: artifacts]
+[2026-03-16 10:14:12,671: INFO: common:json file saved at: scores.json]
+[2026-03-16 10:14:12,689: INFO: common:json file saved at: scores.json]
+[2026-03-16 10:14:18,046: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2026-03-16 10:14:18,670: INFO: builder_impl:Assets written to: /tmp/tmp51o5w_a8/model/data/model/assets]
+[2026-03-16 10:19:23,168: INFO: main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-26 13:34:20,206: INFO: stage_01_data_ingestion:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-26 13:34:20,208: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-26 13:34:20,211: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-26 13:34:20,212: INFO: common:created directory at: artifacts]
+[2026-03-26 13:34:20,213: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-26 13:34:20,214: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-26 13:36:25,284: INFO: stage_01_data_ingestion:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-26 13:36:25,286: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-26 13:36:25,287: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-26 13:36:25,287: INFO: common:created directory at: artifacts]
+[2026-03-26 13:36:25,288: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-26 13:36:25,288: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-26 13:39:14,374: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-26 13:39:15,124: INFO: stage_01_data_ingestion:>>>>>> stage Data Ingestion stage completed <<<<<< 
+
+x ========== x]
+[2026-03-26 13:43:22,665: INFO: stage_01_data_ingestion:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-26 13:43:22,666: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-26 13:43:22,667: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-26 13:43:22,668: INFO: common:created directory at: artifacts]
+[2026-03-26 13:43:22,668: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-26 13:43:22,668: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-26 13:46:06,092: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-26 13:46:06,626: INFO: stage_01_data_ingestion:>>>>>> stage Data Ingestion stage completed <<<<<< 
+
+x ========== x]
+[2026-03-27 04:20:51,965: INFO: stage_01_data_ingestion:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-27 04:20:51,969: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-27 04:20:51,972: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-27 04:20:51,973: INFO: common:created directory at: artifacts]
+[2026-03-27 04:20:51,974: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-27 04:20:51,974: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-27 04:21:53,409: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-27 04:21:54,359: INFO: stage_01_data_ingestion:>>>>>> stage Data Ingestion stage completed <<<<<< 
+
+x ========== x]
+[2026-03-27 04:24:45,573: INFO: stage_02_prepare_base_model:*******************]
+[2026-03-27 04:24:45,574: INFO: stage_02_prepare_base_model:>>>>>> stage Prepare base model started <<<<<< ]
+[2026-03-27 04:24:45,576: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-27 04:24:45,578: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-27 04:24:45,579: INFO: common:created directory at: artifacts]
+[2026-03-27 04:24:45,579: INFO: common:created directory at: artifacts/prepare_base_model]
+[2026-03-27 04:24:46,462: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-27 04:24:46,811: INFO: stage_02_prepare_base_model:>>>>>> stage Prepare base model completed <<<<<< 
+
+x ========== x]
+[2026-03-27 04:24:51,244: INFO: stage_03_model_training:*******************]
+[2026-03-27 04:24:51,244: INFO: stage_03_model_training:>>>>>> stage Training started <<<<<<]
+[2026-03-27 04:24:51,247: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-27 04:24:51,248: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-27 04:24:51,249: INFO: common:created directory at: artifacts]
+[2026-03-27 04:24:51,250: INFO: common:created directory at: artifacts/training]
+[2026-03-27 04:26:24,610: INFO: stage_03_model_training:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-03-27 04:26:32,796: INFO: stage_04_model_evaluation:*******************]
+[2026-03-27 04:26:32,797: INFO: stage_04_model_evaluation:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-27 04:26:32,802: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-27 04:26:32,809: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-27 04:26:32,810: INFO: common:created directory at: artifacts]
+[2026-03-27 04:27:03,078: INFO: common:json file saved at: scores.json]
+[2026-03-27 04:27:03,079: INFO: common:json file saved at: scores.json]
+[2026-03-27 04:27:03,080: INFO: stage_04_model_evaluation:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-27 04:40:28,116: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.28.112.10:8080]
+[2026-03-27 04:40:28,117: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2026-03-27 04:40:32,262: INFO: _internal:127.0.0.1 - - [27/Mar/2026 04:40:32] "GET / HTTP/1.1" 200 -]
+[2026-03-27 04:41:37,159: ERROR: app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask_cors/decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "/home/rahul/Kidney-Disease-Classification-MLflow-DVC/src/cnnClassifier/pipeline/prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/keras/saving/saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/keras/saving/legacy/save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model/model.h5
+[2026-03-27 04:41:37,192: INFO: _internal:127.0.0.1 - - [27/Mar/2026 04:41:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2026-03-27 04:59:29,322: INFO: _internal:127.0.0.1 - - [27/Mar/2026 04:59:29] "GET / HTTP/1.1" 200 -]
+[2026-03-27 04:59:38,112: ERROR: app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/flask_cors/decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "/home/rahul/Kidney-Disease-Classification-MLflow-DVC/src/cnnClassifier/pipeline/prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/keras/saving/saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/rahul/miniconda3/envs/kidney/lib/python3.8/site-packages/keras/saving/legacy/save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model/model.h5
+[2026-03-27 04:59:38,114: INFO: _internal:127.0.0.1 - - [27/Mar/2026 04:59:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2026-03-27 05:05:31,789: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:05:31] "GET / HTTP/1.1" 200 -]
+[2026-03-27 05:05:47,024: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.28.112.10:8080]
+[2026-03-27 05:05:47,024: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2026-03-27 05:05:50,931: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:05:50] "GET / HTTP/1.1" 200 -]
+[2026-03-27 05:06:10,725: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:06:10] "POST /predict HTTP/1.1" 200 -]
+[2026-03-27 05:06:33,325: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:06:33] "POST /predict HTTP/1.1" 200 -]
+[2026-03-27 05:06:37,019: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:06:37] "POST /predict HTTP/1.1" 200 -]
+[2026-03-27 05:08:26,612: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:08:26] "POST /predict HTTP/1.1" 200 -]
