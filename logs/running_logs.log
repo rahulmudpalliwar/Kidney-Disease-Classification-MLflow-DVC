@@ -407,3 +407,16 @@ OSError: No file or directory found at model/model.h5
 [2026-03-27 05:06:33,325: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:06:33] "POST /predict HTTP/1.1" 200 -]
 [2026-03-27 05:06:37,019: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:06:37] "POST /predict HTTP/1.1" 200 -]
 [2026-03-27 05:08:26,612: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:08:26] "POST /predict HTTP/1.1" 200 -]
+[2026-03-27 05:18:13,514: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.28.112.10:8080]
+[2026-03-27 05:18:13,515: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2026-03-27 05:18:39,452: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.28.112.10:8080]
+[2026-03-27 05:18:39,453: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2026-03-27 05:18:42,595: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:18:42] "GET / HTTP/1.1" 200 -]
+[2026-03-27 05:18:51,744: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:18:51] "POST /predict HTTP/1.1" 200 -]
+[2026-03-27 05:18:58,176: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:18:58] "POST /predict HTTP/1.1" 200 -]

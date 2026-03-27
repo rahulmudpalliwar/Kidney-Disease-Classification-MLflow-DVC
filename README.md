@@ -57,3 +57,8 @@ export MLFLOW_TRACKING_PASSWORD=<api_token>
 
 ##### cmd
 - mlflow ui
+
+### 6) DVC cmd
+- dvc init
+- dvc repro
+- dvc dag
