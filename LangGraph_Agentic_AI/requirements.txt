@@ -1,0 +1,20 @@
+# LangGraph / LangChain core
+langgraph
+langchain
+langchain-google-genai
+langchain-community
+langchain-chroma
+
+# Vector store
+chromadb
+langchain-text-splitters
+
+# PDF loading (for RAG agent)
+pypdf
+
+# Web framework
+fastapi
+uvicorn[standard]
+
+# Environment / config
+python-dotenv
