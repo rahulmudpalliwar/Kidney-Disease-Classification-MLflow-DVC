@@ -420,3 +420,58 @@ OSError: No file or directory found at model/model.h5
 [2026-03-27 05:18:42,595: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:18:42] "GET / HTTP/1.1" 200 -]
 [2026-03-27 05:18:51,744: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:18:51] "POST /predict HTTP/1.1" 200 -]
 [2026-03-27 05:18:58,176: INFO: _internal:127.0.0.1 - - [27/Mar/2026 05:18:58] "POST /predict HTTP/1.1" 200 -]
+[2026-03-27 06:21:06,757: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.28.112.10:8080]
+[2026-03-27 06:21:06,758: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2026-03-27 06:21:10,606: INFO: _internal:127.0.0.1 - - [27/Mar/2026 06:21:10] "GET / HTTP/1.1" 200 -]
+[2026-03-27 06:21:28,066: INFO: _internal:127.0.0.1 - - [27/Mar/2026 06:21:28] "POST /predict HTTP/1.1" 200 -]
+[2026-03-27 06:21:35,666: INFO: _internal:127.0.0.1 - - [27/Mar/2026 06:21:35] "POST /predict HTTP/1.1" 200 -]
+[2026-03-27 09:59:39,465: INFO: main:>>>>>> stage Data Ingestion stage started <<<<<< ]
+[2026-03-27 09:59:39,467: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-27 09:59:39,469: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-27 09:59:39,470: INFO: common:created directory at: artifacts]
+[2026-03-27 09:59:39,470: INFO: common:created directory at: artifacts/data_ingestion]
+[2026-03-27 09:59:39,470: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-27 10:01:21,305: INFO: data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-03-27 10:01:22,040: INFO: main:>>>>>> stage Data Ingestion stage completed <<<<<< 
+
+x ========== x]
+[2026-03-27 10:01:22,040: INFO: main:*******************]
+[2026-03-27 10:01:22,040: INFO: main:>>>>>> stage Prepare base model stage started <<<<<< ]
+[2026-03-27 10:01:22,041: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-27 10:01:22,042: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-27 10:01:22,042: INFO: common:created directory at: artifacts]
+[2026-03-27 10:01:22,043: INFO: common:created directory at: artifacts/prepare_base_model]
+[2026-03-27 10:01:23,014: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-03-27 10:01:23,402: INFO: main:>>>>>> stage Prepare base model stage completed <<<<<< 
+
+x ========== x]
+[2026-03-27 10:01:23,402: INFO: main:*******************]
+[2026-03-27 10:01:23,402: INFO: main:>>>>>> stage Training started <<<<<<]
+[2026-03-27 10:01:23,404: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-27 10:01:23,405: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-27 10:01:23,406: INFO: common:created directory at: artifacts]
+[2026-03-27 10:01:23,408: INFO: common:created directory at: artifacts/training]
+[2026-03-27 10:03:00,677: INFO: main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2026-03-27 10:03:00,678: INFO: main:*******************]
+[2026-03-27 10:03:00,678: INFO: main:>>>>>> stage Evaluation stage started <<<<<<]
+[2026-03-27 10:03:00,680: INFO: common:yaml file: config/config.yaml loaded successfully]
+[2026-03-27 10:03:00,682: INFO: common:yaml file: params.yaml loaded successfully]
+[2026-03-27 10:03:00,682: INFO: common:created directory at: artifacts]
+[2026-03-27 10:03:33,757: INFO: common:json file saved at: scores.json]
+[2026-03-27 10:03:33,759: INFO: common:json file saved at: scores.json]
+[2026-03-27 10:03:33,759: INFO: main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-27 10:10:14,875: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.28.112.10:8080]
+[2026-03-27 10:10:14,875: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2026-03-27 10:10:18,958: INFO: _internal:127.0.0.1 - - [27/Mar/2026 10:10:18] "GET / HTTP/1.1" 200 -]
+[2026-03-27 10:10:29,986: INFO: _internal:127.0.0.1 - - [27/Mar/2026 10:10:29] "POST /predict HTTP/1.1" 200 -]
+[2026-03-27 10:10:39,055: INFO: _internal:127.0.0.1 - - [27/Mar/2026 10:10:39] "POST /predict HTTP/1.1" 200 -]
